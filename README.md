@@ -13,9 +13,10 @@ Telegram é uma plataforma de mensagens instantâneas freeware (distribuído gra
 - Objetivo
 Nesse projeto vamos criar um grupo no telegram e enviar mensagens para teste durante 3 dias. A captação dos dados via chatbot será feita diariamente. Ao final dessa atividade, vamos para a parte analítica. O objetivo do projeto é responder as seguintes perguntas:
 
-Quantas mensagens cada usuário mandou por dia?
-Qual a média do tamanho das mensagens enviadas por usuário por dia?
-Qual a quantidade de mensagens por hora por dia da semana por número da semana?
+- Quantas mensagens cada usuário mandou por dia?
+- Qual a média do tamanho das mensagens enviadas por usuário por dia?
+- Qual a quantidade de mensagens por hora por dia da semana por número da semana?
+
 Portanto, vamos construir um pipeline de dados que ingira, processe, armazene e exponha mensagens de um grupo do Telegram para que profissionais de dados possam realizar análises. A arquitetura proposta é dividida em duas: transacional, no Telegram, onde os dados são produzidos, e analítica, na Amazon Web Services (AWS), onde os dados são analisados.
 
 ![](https://github.com/joaolucascv/pipeline-img/blob/main/img%20projeto%20final.png?raw=true)
