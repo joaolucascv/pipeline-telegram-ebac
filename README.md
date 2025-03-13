@@ -1,4 +1,5 @@
 Contexto
+
 O atual projeto busca criar um pipeline de dados para, através de um chatbot fazer a extração, tratamento e análise de dados de uma conversa no Telegram.
 
 Todos os prints das configurações tanto do Telegram, como nas plataformas AWS estão salvos neste [link](https://github.com/joaolucascv/pipeline-img.git) do Github.
